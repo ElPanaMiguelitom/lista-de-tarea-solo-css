@@ -1,0 +1,113 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  /* 1 */
+  border-width: 0;
+  /* 2 */
+  border-style: solid;
+  /* 2 */
+  border-color: #e5e7eb;
+  /* 2 */
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    background-color: rgb(48, 48, 48);
+}
+
+#barra_de_navegacion {
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    background-color: grey;
+}
+
+/* texto de TODOAPP */
+#encabezado {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+#objeto {
+    height: 27px;
+}
+
+#TAREAS {
+    margin: 0;
+}
+
+.tareitas {
+    margin: 0;
+}
+
+#contenedor {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#TAREAS {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+#tareas1 {
+    display: flex;
+    height: 500px;
+    width: 60%;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(87, 85, 85);
+    border-radius: 50px;
+
+}
+.tareitas {
+    display: flex;
+    justify-content: center;
+    height: 20px;
+    width: 50%;
+    color: white;
+}
+
+#texto {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+#boton_agregar {
+    height: 20px;
+    background-color: gray;
+    border-radius: 9px;
+    cursor: pointer;
+    
+}
+
+#escribir {
+    height: 18px;
+    width: 200px;
+    border-radius: 5px;
+}
+
+.boton_editar {
+    height: 20px;
+    cursor: pointer;
+}
+
+.ordenar_tareas_items {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.boton_eliminar {
+    height: 20px;
+    color: rgb(99, 1, 1);
+    cursor: pointer;
+}
